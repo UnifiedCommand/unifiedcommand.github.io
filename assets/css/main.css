@@ -648,7 +648,8 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+		/*	background-color: rgba(19, 21, 25, 0.5);  */
+			background-color: rgba(105, 27, 32, 1);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1140,7 +1141,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(105, 27, 32, 1), rgba(105, 27, 32, 1)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(105, 27, 32, 0.5), rgba(105, 27, 32, 1)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1545,7 +1546,7 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			/* background-color: rgba(27, 31, 34, 0.85); */
-			background-color: rgba(105, 27, 32, 1);
+			background-color: rgba(255, 255, 255, 1);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1591,11 +1592,13 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					/* background-color: rgba(255, 255, 255, 0.075); */
+					background-color: rgba(105, 27, 32, 0.75);
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					/* background-color: rgba(255, 255, 255, 0.175); */
+					background-color: rgba(105, 27, 32, 1);
 				}
 
 		@media screen and (max-width: 736px) {
