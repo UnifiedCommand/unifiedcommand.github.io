@@ -182,7 +182,6 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
-		font-family: 'Audiowide', cursive;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1321,6 +1320,7 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				font-family: 'Audiowide', cursive;
 			}
 
 				#header .content .inner > :last-child {
