@@ -197,6 +197,11 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			font-family: 'Audiowide', cursive;
+		}
+		
+		h1.title {
+			font-family: 'Audiowide', cursive;
 		}
 
 	h1 {
