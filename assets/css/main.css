@@ -311,6 +311,7 @@ input, select, textarea {
 
 	form {
 		margin: 0 0 2rem 0;
+		color: #691B20;
 	}
 
 		form > :last-child {
@@ -382,7 +383,8 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+	/*	color: #ffffff; */
+		color: #691B20;
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
