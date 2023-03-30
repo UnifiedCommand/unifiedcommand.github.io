@@ -799,6 +799,10 @@ input, select, textarea {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
 		}
+		
+		ul.actions li:last-child {
+			float:right;
+		}
 
 		ul.actions.special {
 			-moz-justify-content: center;
