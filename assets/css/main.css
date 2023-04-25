@@ -436,7 +436,7 @@ input, select, textarea {
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #691B20;
-			box-shadow: 0 0 0 1px #000000;
+			box-shadow: 0 0 0 1px #691B20;
 		}
 
 	select {
@@ -1090,7 +1090,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #1b1f22 !important;
+			/*color: #1b1f22 !important;*/
+			color: #691B20 !important;
 			font-weight: 600;
 		}
 
